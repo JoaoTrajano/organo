@@ -1,0 +1,23 @@
+.content {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.content label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.style-input {
+    height: 80px;
+    width: 100%;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border: none;
+    box-sizing: border-box;
+    padding: 16px;
+
+}

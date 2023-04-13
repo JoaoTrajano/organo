@@ -1,0 +1,25 @@
+.content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.collaborator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 16px;
+
+}

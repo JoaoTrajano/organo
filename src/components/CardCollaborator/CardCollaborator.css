@@ -1,0 +1,43 @@
+.colaborador {
+  width: 280px;
+  position: relative;
+}
+.colaborador .cabecalho {
+  border-radius: 10px 10px 0px 0px;
+}
+.deleteIcon {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.829);
+  border: none;
+  border-radius: 50px;
+  right: -8px;
+  top: -10px;
+}
+.deleteIcon:hover {
+  cursor: pointer;
+}
+.colaborador img {
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -50px;
+  left: 90px;
+}
+.colaborador .rodape {
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 40px;
+  max-height: 100%;
+}
+.colaborador .rodape h4 {
+  color: #6278F7;
+  font-size: 16px;
+  font-weight: bold;
+}
+.colaborador .rodape h5 {
+  font-size: 16px;
+  color: #212121;
+  padding-bottom: 16px;
+}
