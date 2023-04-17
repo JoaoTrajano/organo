@@ -71,12 +71,17 @@ function App() {
     );
   };
 
+  const createOptionTime = (data) => {
+    setTimes([...times, data]);
+  };
+
   return (
     <div>
       <Banner />
       <Form
         optionsList={times.map((item) => item.title)}
         handleCreateCollaborator={createTime}
+        handleTime={createOptionTime}
       />
       <Time allTimes={times} deleteCollaborator={delCollaborator} />
     </div>

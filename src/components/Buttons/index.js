@@ -1,10 +1,10 @@
 import React from 'react';
 import './button.css';
 
-function Button({ type }) {
+function Button({ type, ...props }) {
   return (
     <button className="button" type={type}>
-      Criar Card
+      {props.children}
     </button>
   );
 }
